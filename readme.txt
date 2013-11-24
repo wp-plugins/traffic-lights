@@ -1,4 +1,4 @@
-=== Label Plugins ===
+=== Traffic Lights ===
 Contributors: theode
 Donate link: http://www.wp-plugin-dev.com/donate
 Tags: traffic,lights,status
