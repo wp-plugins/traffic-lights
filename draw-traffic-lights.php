@@ -1,6 +1,35 @@
 <?php
 
 
+if( function_exists('user_begins_to_work')){
+$all_users=get_users();
+$somebody_is_green=false;
+$green=false;
+foreach($all_users as $user){
+
+$the_user_id=$user->data->ID;
+$in_office=get_user_meta($the_user_id,"in_office", true); 
+$in_pause=get_user_meta($the_user_id,"in_pause", true); 
+
+if ($in_office=="yes" && $in_pause=="no")
+{
+update_option('ampel','gruen');
+$green=true;
+break;
+}else if($in_pause=="yes" && $green==false){
+	update_option('ampel','gelb');
+	break;
+	
+}else{
+	update_option('ampel','rot');
+	
+	
+}}
+
+
+}
+
+
 
 // Eine Funktion um eine Ampel anzuzeigen
 function draw_traffic_light(){

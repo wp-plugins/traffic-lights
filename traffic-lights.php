@@ -3,7 +3,7 @@
 Plugin Name: Traffic Lights
 Plugin URI: http://www.wp-plugin-dev.com
 Description: A simple Traffic Light to show some state for visitor
-Version: 0.1
+Version: 0.12
 Author: wp-plugin-dev.com
 Author URI: http://www.wp-plugin-dev.com
 License: GPLv2 or later

@@ -4,7 +4,7 @@ Donate link: http://www.wp-plugin-dev.com/donate
 Tags: traffic,lights,status
 Requires at least: 3.0
 Tested up to: 3.8
-Stable tag: 0.1
+Stable tag: 0.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ As traffic light function for projects every logged in user can choose between r
 
 You have it as dashboard widget, as sidebar widget and shortcode [trafficlights].
 
-The next version should do maybe something cool.
+This Version can be connected with "HRM Work Tracking" and is showing Green for somebody is present, yellow somebody is there but in pause and red nobody is there. 
 
 
 
